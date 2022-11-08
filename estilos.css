@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+
+.contenedor{
+    background-image: url(https://images6.alphacoders.com/114/1145091.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+p{
+    font-size: 40px;
+    color: floralwhite;
+    padding: 15%;
+    font-weight: bold;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #D6203E;
+}
+
+button{
+    font-size: xx-large;
+    font-family: "Sofia", sans-serif;
+    color: floralwhite;
+    padding: 0.75em;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+    background-color: #E69597;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
